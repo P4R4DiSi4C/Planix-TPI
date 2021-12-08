@@ -1,0 +1,42 @@
+{
+  "name": "planix-backend",
+  "version": "1.0.0",
+  "description": "Backend of Planix",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env nodemon index.js",
+    "test": "mocha --sort --recursive server/test/*.js --reporter spec --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.p4sqch.net:planix/backend.git"
+  },
+  "author": "David Carvalho",
+  "license": "ISC",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "googleapis": "^30.0.0",
+    "helmet": "^3.12.1",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "nodemon": "^1.17.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.6",
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
