@@ -21,8 +21,8 @@ const calendar = google.calendar('v3');
 
 // Google oauth client
 const oauth2Client = new google.auth.OAuth2(
-    '794639233624-scr67dr9isr9uoa0mj447so56fp6olr9.apps.googleusercontent.com',
-    'UdccN19Qzb2Deo03tpgX9xf6',
+    'CENSORED',
+    'CENSORED',
     'http://'+(process.env.NODE_ENV !== 'production' ? 'localhost:8080' : 'davidcarvalho.xyz')
 );
 
