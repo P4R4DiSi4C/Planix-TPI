@@ -1,5 +1,7 @@
 # Planix-TPI
-## Projet de fin de CFC, Doodle Like en Vue.js + Node.js + MySQL
+<p>Projet de fin de CFC, Doodle Like en Vue.js + Node.js + MySQL</p>
+<p>Final CFC project, Doodle Like in Vue.js + Node.js + MySQL</p>
+
 
 ![alt text](https://i.imgur.com/ng8yq35.png)
 ![alt text](https://i.imgur.com/sFyL1XZ.png)
